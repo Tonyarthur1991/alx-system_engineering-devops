@@ -1,2 +1,2 @@
 #!/bin/bash
-import os; print(os.path.abspath(os.getcwd()))
+root@f51fd45b2819:/alx-system_engineering-devops/0x00-shell_basics
