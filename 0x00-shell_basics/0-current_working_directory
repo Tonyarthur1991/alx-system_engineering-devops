@@ -1,0 +1,12 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string currentDir = Environment.CurrentDirectory;
+        string absolutePath = System.IO.Path.GetFullPath(currentDir);
+        Console.WriteLine(absolutePath);
+    }
+}
+
