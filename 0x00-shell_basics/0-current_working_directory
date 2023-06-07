@@ -1,2 +1,2 @@
-import os
-print(os.path.abspath(os.getcwd()))
+#!/bin/bash
+import os; print(os.path.abspath(os.getcwd()))
