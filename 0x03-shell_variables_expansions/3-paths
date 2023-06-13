@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F':' '{print NF}' <<< "$PATH"
+IFS=':' read -ra PATH_ARRAY <<< "$PATH"; echo "${#PATH_ARRAY[@]}"
